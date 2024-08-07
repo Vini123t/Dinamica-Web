@@ -5,36 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil do Usuário</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .profile-info {
-            margin-bottom: 20px;
-        }
-        .profile-info p {
-            margin: 5px 0;
+        .titulo {
+            color: red;
+            font-weight: bold;
+            font-size: 24px; /* Você pode ajustar o tamanho conforme necessário */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Perfil do Usuário</h1>
+        
+        <div>
+            <img src="logo.png" 
+            width="100"
+            height="100">
+            <span class="titulo" 
+            style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bem-vindo à Minha Página</span>
+        </div>
+            
+ 
         <div id="profile" class="profile-info">
             <p><strong>Nome:</strong> <span id="name">Carregando...</span></p>
             <p><strong>Idade:</strong> <span id="age">Carregando...</span></p>
